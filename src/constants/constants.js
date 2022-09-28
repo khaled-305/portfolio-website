@@ -1,0 +1,63 @@
+export const projects = [
+  {
+    title: 'Music Player',
+    description: "This web app is a music player app like Spotify, or YouTube Music. It gets music data (like: music lyrics, trending music, top artists, top charts, music categories) from Shazam API. Developed using React.js, Redux, Tailwind CSS, Shazam API",
+      image: '/images/musical.jpeg',
+      tags: ['React', 'Redux', 'Tailwind CSS'],
+    source: 'https://github.com/khaled-305/music-player',
+    visit: 'https://adorable-otter-7060e0.netlify.app/',
+    id: 0,
+  },
+  {
+    title: 'YouTube Clone App',
+    description:"This is a YouTube clone application developed using data from YouTube v3 API. With a responsive video section, custom categories, youtube channel pages, video page and video player, advanced filtering for related channels and videos.",
+    image: '/images/yt.png',
+    tags: ['React', 'JavaScript', 'Material UI'],
+    source: 'https://github.com/khaled-305/YT-clone',
+    visit: 'https://adorable-licorice-000394.netlify.app/',
+    id: 1,
+  },
+  {
+    title: 'Real Estate App',
+    description: "This project is a real estate application just like realtor.com. It displays property listings for sale, for rent and special offers. It displays property location on google map, custom categories, responsive design, complete  authentication, google signin.",
+      image: '/images/real-estate.webp',
+      tags: ['React', 'Firebase', 'Tailwind CSS'],
+    source: 'https://github.com/khaled-305/realtor-clone',
+    visit: 'https://capable-raindrop-97e75a.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'Fitness App',
+    description: "This is a fitness/workout app. It provides the user with different workout categories, workout instructions and examples, it pulls related workout video categories from youtube and displays for the user to select from.",
+    image: '/images/gym.jpeg',
+    tags: ['React', 'Rapid API', 'JavaScript'],
+    source: 'https://github.com/khaled-305/fitness-app',
+    visit: 'https://fitness-app-asl4-l9lp9so9g-khaled-305.vercel.app/',
+    id: 3,
+  },
+  {
+    title: 'Crypto Order Book',
+    description: "This project is a crypto order book, developed with react and web socket. It displays the current price of Bitcoin and etherium, and the buy and sale changes as they happen. It has options to change feed from 'BTC' to 'ETC'. You can also group or spread the result as you wish",
+      image: '/images/orderbook.png',
+      tags: ['React', 'Typescript', 'Web Socket', 'SASS'],
+    source: 'https://github.com/khaled-305/crypto-order-book',
+    visit: 'https://clinquant-hamster-ad6502.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'Covid19 Tracker',
+    description: "Covid19 application developed with react.js. This app displays information about the rate of infection, death rate and recovery rate of covid19 in different countries. It displays a graphical representation of the data based on the selected country.",
+    image: '/images/covid.webp',
+    tags: ['React', 'Material UI', 'Chart.js'],
+    source: 'https://github.com/khaled-305/corona-virus-tracker',
+    visit: 'https://corona-virus-tracker-acn3.vercel.app/',
+    id: 5,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2015, text: 'Freelance Software Engineer', },
+  { year: 2016, text: 'Learning Facilitator', },
+  { year: 2017, text: 'Senior Software Engineer @ Virtually Pros', },
+  { year: 2019, text: 'Senior Software Developer @ Tenece', },
+];
