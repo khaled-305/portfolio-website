@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            HTML5, CSS3, JavaScript, Typescript, React.js, Next.js, Redux, Recoil, Tailwind CSS, Boostrap, Ant Design, Material UI, Wordpress and more...
+            HTML5, CSS3, JavaScript, Typescript, React.js, React Native, Next.js, Redux, Recoil, Tailwind CSS, Boostrap, Ant Design, Material UI, Wordpress and more...
           </ListParagraph>
         </ListContainer>
       </ListItem>
