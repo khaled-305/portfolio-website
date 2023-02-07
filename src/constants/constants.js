@@ -9,13 +9,22 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Food Devlivery App',
+    description: "A full-stack food delivery web app developed using React.js. In this web app, user's can view different categories of food and drinks, add items to cart, update quantity of items in cart, authenticate using google auth.. etc",
+      image: '/images/food.png',
+      tags: ['React', 'Framer motion', 'Tailwind CSS', 'Firebase', 'React Icons'],
+    source: 'https://github.com/khaled-305/food-delivery-app',
+    visit: 'https://astonishing-profiterole-37547b.netlify.app/',
+    id: 1,
+  },
+  {
     title: 'YouTube Clone App',
     description:"This is a YouTube clone application developed using data from YouTube v3 API. With a responsive video section, custom categories, youtube channel pages, video page and video player, advanced filtering for related channels and videos.",
     image: '/images/yt.png',
     tags: ['React', 'JavaScript', 'Material UI'],
     source: 'https://github.com/khaled-305/YT-clone',
     visit: 'https://adorable-licorice-000394.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Real Estate App',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['React', 'Firebase', 'Tailwind CSS'],
     source: 'https://github.com/khaled-305/realtor-clone',
     visit: 'https://capable-raindrop-97e75a.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Fitness App',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'Rapid API', 'JavaScript'],
     source: 'https://github.com/khaled-305/fitness-app',
     visit: 'https://fitness-app-asl4-l9lp9so9g-khaled-305.vercel.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Crypto Order Book',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['React', 'Typescript', 'Web Socket', 'SASS'],
     source: 'https://github.com/khaled-305/crypto-order-book',
     visit: 'https://clinquant-hamster-ad6502.netlify.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Covid19 Tracker',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['React', 'Material UI', 'Chart.js'],
     source: 'https://github.com/khaled-305/corona-virus-tracker',
     visit: 'https://corona-virus-tracker-acn3.vercel.app/',
-    id: 5,
+    id: 6,
   },
 ];
 
@@ -60,4 +69,5 @@ export const TimeLineData = [
   { year: 2016, text: 'Learning Facilitator', },
   { year: 2017, text: 'Senior Software Engineer @ Virtually Pros', },
   { year: 2019, text: 'Senior Software Developer @ Tenece', },
+  { year: 2023, text: 'Full-stack Software Developer @ Verified Creators', },
 ];
